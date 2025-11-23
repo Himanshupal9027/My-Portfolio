@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Pal | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Himanshu Pal, a Computer Science student specializing in Data Science and Web Development.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">HP.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1 class="name">Himanshu Pal</h1>
+            <h2 class="role">I am a <span class="typing-text"></span></h2>
+            <p class="bio">B.Tech CSE Student at Tula's Institute | Data Science Enthusiast | Full Stack Developer</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary">Hire Me</a>
+                <a href="#projects" class="btn secondary">View Work</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <!-- Abstract geometric shape or 3D element could go here -->
+            <div class="circle-glow"></div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am currently pursuing my B.Tech in Computer Science and Engineering (3rd Year) from Tula's
+                        Institute. My journey in tech has been driven by curiosity and a passion for solving real-world
+                        problems.</p>
+                    <p>I have a strong foundation in Data Science and have recently expanded my skillset to include Full
+                        Stack Web Development. I love building intuitive frontends and robust backends.</p>
+                </div>
+                <div class="education-cards">
+                    <div class="card glass">
+                        <h3>B.Tech CSE</h3>
+                        <p>Tula's Institute</p>
+                        <span class="year">3rd Year (Current)</span>
+                    </div>
+                    <!-- Add more education if needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Data Science</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Machine Learning</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React (Learning)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>Databases</span>
+                        <span>C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass">
+                    <div class="project-info">
+                        <h3>Traffic Signal Recognition</h3>
+                        <p>A Data Science project utilizing machine learning algorithms to recognize and classify
+                            traffic signals for autonomous vehicle systems.</p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>ML</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <a href="https://github.com/YOUR_USERNAME/traffic-signal-recognition" target="_blank"
+                            class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Placeholder for future projects -->
+                <div class="project-card glass">
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A modern, responsive personal portfolio website featuring glassmorphism design and smooth
+                            animations.</p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content glass">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>himanshu@example.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Dehradun, India</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/YOUR_USERNAME/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/YOUR_USERNAME" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/YOUR_USERNAME" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Himanshu Pal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
