@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This repository contains the source code for my professional portfolio, designed to showcase my skills, education, and projects in Data Science and Full Stack Development.
 
-![Portfolio Preview](https://via.placeholder.com/800x400?text=Portfolio+Preview) 
+https://himanshupal9027.github.io/My-Portfolio/
 *(Note: Replace the link above with a screenshot of your actual site once deployed)*
 
 ## 🚀 Features
